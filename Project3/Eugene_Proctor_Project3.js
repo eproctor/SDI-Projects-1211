@@ -17,6 +17,7 @@ var superHero 	=   	/* Travel to the Staduim  */ 				"Ultra Man",
 ;
 
 // Conditional, Argument Boolean, For Loop, Argument Array, Property Array
+// Tested
 
 if (fightCrime === true) {
 	console.log ("Ultra Man will fight crime today.");
