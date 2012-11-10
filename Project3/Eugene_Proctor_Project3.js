@@ -59,7 +59,7 @@ var armor = {
 		return totalArmor; 
 	},
 	
-// Mutator Method
+// Mutator Method  - tested
 	"setNewSize" : function(newVest) {
 		this.vest = newVest;
 	}
