@@ -108,7 +108,7 @@ console.log ("The number of help calls to resolve is " + callsToResolve);
 
 
 
-//Output
+//Output - Tested
 
 console.log("Their are " + armor.size() + " pieces of armor available for any Hero to use. ");
 armor.setNewSize(50);
