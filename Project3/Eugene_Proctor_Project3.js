@@ -95,6 +95,7 @@ ultraManPower.phaseThroughLiquids();
 
 
 //Math - how many help calls are left to resolve
+// Calculations for Math function
 
 var callsToResolve = function(helpCalls, resolvedCalls) {
 	callsToResolve = helpCalls - resolvedCalls
