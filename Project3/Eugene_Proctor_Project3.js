@@ -3,7 +3,7 @@
 // Eugene Proctor
 // SDI 1211
 // Project 3
-// My Third JavaScript Project
+// My Third JavaScript Project - Completed
 
  
 
