@@ -19,3 +19,11 @@ var newNumber = twoDecimal(1.2384)
 // empty space
 console.log("    ");								
 
+
+
+// ...............................
+// Number
+// Format a number to use a specific number of decimal places, as for money: 2.1 to 2.10
+
+
+
