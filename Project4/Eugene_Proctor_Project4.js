@@ -23,7 +23,7 @@ console.log("    ");
 
 
 
-// ...............................
+// ...............................ok
 // Number
 // Display the number above and below a number within a certain percent
 
@@ -41,4 +41,52 @@ var newNumber = topNumber(123.1);
 console.log("    ");								
 
 
+
+
+// ...............................
+// Array
+// Find the smallest value in an array that is greater than a given number 
+// look in an array of numbers, console.log all numbers less than the number you have, save into an array, Math.min the array
+
+
+
+var x = 10;
+var numbers = [1, 2, 3];   
+
+	if (x = numbers) {
+	console.log("yes");
+	
+	} else {console.log ("no")}
+	
+
+
+
+
+
+// ...............................ok
+// Number
+// Given a string version of a number such as "42", return the value as an actual Number, such as 42. 
+
+
+var input = function(string) {
+
+console.log ("This is the numerical version of the string " + parseInt(string, 10));
+
+};
+
+var newInput = input("212.5");
+
+
+// ...............................
+
+// Array
+// Find the total value of just the numbers in an array, even if some of the items are not numbers
+//array.reduce(callback[, initialValue])
+
+var total = [5, 10, 5, 15].reduce(function(a, b) {
+	return a + b;
+	
+});
+
+console.log (total + " is the total for the array." )
 
