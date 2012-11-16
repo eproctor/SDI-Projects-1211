@@ -115,3 +115,36 @@ console.log(wordOne.charAt(0).toUpperCase() + wordOne.slice(1,3) + " " + wordOne
 console.log(" ")
 
 
+
+// ...............................
+// String
+// Is the string a URL?  Does it start with http: or https:?
+
+var checkName = function(pre){
+	if (pre === "http") {
+			console.log("This site has a http prefix");
+			return true;
+	} else {
+//			return false;
+				
+					if (pre === "https") {
+					
+					console.log("This site has a https prefix");
+					return true;
+//					}
+
+//			return true;
+	
+	} else {
+			console.log("This string is not a url.  It does not have an https: or http: prefix");
+			return false;
+			
+	};
+}
+
+//return {
+//		"checkName" : checkName
+		
+};
+
+console.log(checkName("httpss"));
