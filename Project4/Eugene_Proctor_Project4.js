@@ -1,5 +1,8 @@
 // alert("JavaScript works!");
-
+// Eugene Proctor
+// SDI 1211
+// Project 4
+//  My first JavaSricpt Project
 
 
 
@@ -7,7 +10,6 @@
 // Number
 // Format a number to use a specific number of decimal places, as for money: 2.1 to 2.10
 
-console.log("Number");
 console.log("Format a number to use a specific number of decimal places, for ex: money: 2.1 to 2.10");
 
 var twoDecimal = function(number) {
@@ -24,6 +26,9 @@ var newNumber = twoDecimal(1.2384);
 
 // empty space
 console.log("    ");								
+
+
+
 
 
 
@@ -47,23 +52,6 @@ console.log("    ");
 
 
 
-// ...............................
-// Array
-// Find the smallest value in an array that is greater than a given number 
-// look in an array of numbers, console.log all numbers less than the number you have, save into an array, Math.min the array
-
-
-
-var x = 10;
-var numbers = [1, 2, 3];   
-
-	if (x = numbers) {
-	console.log("yes");
-	
-	} else {console.log ("no")}
-	
-
-
 
 
 
@@ -81,6 +69,10 @@ console.log ("This is the numerical version of the string " + parseInt(string, 1
 var newInput = input("212.5");
 console.log(" ")
 
+
+
+
+
 // ............................... ok
 
 // Array
@@ -94,6 +86,8 @@ var total = [5, 10, 5, 15].reduce(function(a, b) {
 
 console.log (total + " is the total for the array." )
 console.log(" ")
+
+
 
 
 
@@ -116,7 +110,10 @@ console.log(" ")
 
 
 
-// ...............................
+
+
+
+// ...............................ok
 // String
 // Is the string a URL?  Does it start with http: or https:?
 
@@ -125,15 +122,11 @@ var checkName = function(pre){
 			console.log("This site has a http prefix");
 			return true;
 	} else {
-//			return false;
 				
 					if (pre === "https") {
 					
 					console.log("This site has a https prefix");
 					return true;
-//					}
-
-//			return true;
 	
 	} else {
 			console.log("This string is not a url.  It does not have an https: or http: prefix");
@@ -141,10 +134,7 @@ var checkName = function(pre){
 			
 	};
 }
-
-//return {
-//		"checkName" : checkName
 		
 };
 
-console.log(checkName("httpss"));
+console.log(checkName("https"));
